@@ -1,0 +1,7 @@
+*.[oa]
+*~
+*.class
+*.exe
+build/
+*.jar
+tempCodeRunnerFile.java
