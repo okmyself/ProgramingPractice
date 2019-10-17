@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.pascal": "pascal",
+        "stdio.h": "c"
+    }
+}
