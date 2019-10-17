@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<!-- 移动设备自适应 -->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>兰州大学110周年校庆</title>
+	
+	<link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
+	
+
+</head>
+<body>
+	
+	<div class="main" >
+	
+		<!-- 最上一层：为黑板报标题栏 -->
+		<div class="top" >
+			<a href="http://110.lzu.edu.cn/" title="110周年校庆">
+				<img class="logo110" src="CSS/images/logo0828.png" >
+			</a>
+			<span class="hello" >
+				Hello, LZUer !
+			</span>
+			
+		</div>
+		
+		<!-- 第二层：此处开始为黑板报主题内容 -->
+		<div class="middle" >
+			<!-- 下面使用两个div容器形成主体内容分左右两部分布局 -->
+			<div class="left-col" >
+				<h2 >寄语:</h2>
+				<p class="para1" >从茫茫人海走向你，又将随你踏入大千世界。一百一十载初心不渝、坚守使命，先辈弦歌，薪火相传。于今兰大，松柏苍苍，花草蔼蔼，名师熠熠，学子煌煌，乃西北教育之国钧。</p>
+				<p class="para2" >人生相知如杏花遇雨，浊酒遇歌，我们也无不感恩着与母校的这场相遇相知。遥望西北，岁月离歌，萃英如故。九月十七，期待与你相约...</p>
+				<img src="CSS/images/jianshou.png" style="width:50px; height: 230px;">
+				
+				<!-- 此处调用iframe引用bilibili网站播放器播放一个视频 -->
+				<iframe  width="354px" height="230px" src="https://player.bilibili.com/player.html?aid=31943008&cid=55871766&page=1" frameborder="no" border="0px" framespacing="0" allowfullscreen="true" > Your Browser is not supported for iframe! </iframe>
+				
+				<!-- 此处代码为预防网络或者终端自身等问题导致iframe无法生效，使用video播放本地视频 --> 
+				<!--div style="width:354px; height:230px; margin:0px; float:right;">
+					<video style="width:100%; height:100%; object-fit:fill;" controls >
+						<source src="videos/lanzhoudaxue.mp4" type="video/mp4">	您的浏览器不支持Video标签。
+					</video>
+				</div-->	
+				
+			</div>
+			<!-- 右边列 -->
+			<div class="right-col" >
+				<img class="pics" src="CSS/images/weijing.png" >
+				<div style="width: 340px;height:180px;float:left;">
+					<img class="img-h" src="CSS/images/yuzhong.jpg" >
+					<img class="img-h" src="CSS/images/bowuguan.jpg" >
+				</div>
+				<div style="width: 100px;height:200px; float:right;">
+					<img class="img-v" src="CSS/images/shitou.jpg" >
+				</div>
+				
+				<div class="qx-news" >
+					<!-- 设置校庆活动标题与底线 -->
+					<div class="qx-head" >
+						<span class="qx-title" >校庆光华</span>
+						<span style="float:right;">
+							<a href="http://110.lzu.edu.cn/lzupage/B20180806040700.html" >更多>></a>
+						</span>
+					</div>
+					
+					<ul class="news">
+						<li><a href="https://mp.weixin.qq.com/s?__biz=MzUwOTc2MDkwMQ==&mid=2247484228&idx=1&sn=b67f874c718b6aa2d7152d8f249f3ab0&chksm=f90c07aece7b8eb84ff81c637eca3f6619e85e3ebbaf256c2be31a8fb7221fa853084e092fc3&mpshare=1&scene=23&srcid=09150BGLuV29O2lQz6LzQ39h&sharer_sharetime=1568477804355&sharer_shareid=c4766a7f140c8af8f6e1b3559750022f#rd" >· 《独树一帜 百年兰大》110米画卷·笔墨丹青彰显兰大人坚守奋斗情怀！</a></li>
+						<li><a href="http://110.lzu.edu.cn/lzupage/2019/09/14/N20190914173823.html" >· 华夏文化遗产基金会会长耿莹致信祝贺我校110周年校庆</a></li>
+						<li><a href="https://mp.weixin.qq.com/s?__biz=MzUwOTc2MDkwMQ==&mid=2247491210&idx=1&sn=a2be549a87c6992fefee3413879a55d5&chksm=f90c1a60ce7b9376e5d6eea17a20f2306ade43b3e8360b4828dae4a6475bc549b1fd0198dc45&token=196524914&lang=zh_CN#rd" >· 兰大化学博士用文言文致谢“我最喜爱的十大教师”唐瑜</a></li>
+						<li><a href="http://110.lzu.edu.cn/lzupage/2019/08/14/N20190814115559.html" >· 兰州大学北京校友会文学分会成立</a></li>						
+						<li><a href="https://mp.weixin.qq.com/s?__biz=MzUwOTc2MDkwMQ==&mid=2247491428&idx=1&sn=1448c212120a5ae1a07f1d9680302720&chksm=f90c1b8ece7b929801c7ba14eed98fd0e3edd6c7d79279111abe2a37f4e6bbb28142551a6dfe&token=196524914&lang=zh_CN#rd" >· 话说：兰大人的坚守奋斗观</a></li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- 第三层：主要放置了'背景音乐'模块，因为audio默认控制组件放上去实在太违和（ugly）就隐藏了，自己做了个简单的播放/暂停控制菜单 -->
+		<div class="foot" >
+			<audio src="music/WeBoughtAZoo.mp3" id="music" loop="loop" preload="auto" type="audio/mpeg"> 'audio' tag is not avalible on your browser!</audio>
+			<ul id="toolbar" >
+				<li class="line" >
+					<span onclick="getElementById('music').play(); getElementById('status').innerHTML='playing';" > Play </span>
+				</li>
+				<li class="line">
+					<span onclick="getElementById('music').pause(); getElementById('status').innerHTML='paused';" > Pause</span>
+				</li>
+				<li class="line"> Bgm: 
+					<span id="status" > -- </span>
+				</li>
+			</ul>
+		</div>
+		
+		<!-- 最下一层：整个页脚部分，主要是背景需要，还有一本正经地（装模做样）写了个版权出处 -->
+		<div class="btm" > Copyright © 2019 
+			<a href="http://www.lzu.edu.cn" > 兰州大学 </a> | Page From :
+			<a href="#" target="_parent" > 2017级计算机基地班：杨添宝 刘佳成</a>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
