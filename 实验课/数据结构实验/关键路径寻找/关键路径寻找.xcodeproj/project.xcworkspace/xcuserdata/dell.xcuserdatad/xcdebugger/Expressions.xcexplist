@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CPM:main.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "Ve[5]">
+            </PersistentString>
+            <PersistentString
+               value = "Ve[1]">
+            </PersistentString>
+            <PersistentString
+               value = "A+5">
+            </PersistentString>
+            <PersistentString
+               value = "A+0">
+            </PersistentString>
+            <PersistentString
+               value = "Ve[4]">
+            </PersistentString>
+            <PersistentString
+               value = "Ve[0]">
+            </PersistentString>
+            <PersistentString
+               value = "A+3">
+            </PersistentString>
+            <PersistentString
+               value = "Ve[3]">
+            </PersistentString>
+            <PersistentString
+               value = "A+1">
+            </PersistentString>
+            <PersistentString
+               value = "A+4">
+            </PersistentString>
+            <PersistentString
+               value = "Ve[2]">
+            </PersistentString>
+            <PersistentString
+               value = "A+2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
