@@ -1,0 +1,20 @@
+1: import java.io.*;
+2: 
+3: public class RandomTest {
+4:     public static void main(String args[]) {
+5:         File f = new File("RandomTest.java");
+6:         try {
+7:             RandomAccessFile random = new RandomAccessFile(f, "r");
+8:             long l = random.length();
+9:             char ch;
+10:             for(long i = l - 1; i >= 0; i--) {
+11:                 random.seek(i);
+12:                 ch = (char)random.read();
+13:                 System.out.print(ch);
+14:             }
+15:             random.close();
+16:         } catch(Exception e) {
+17:             System.out.println("IOError!");
+18:         }
+19:     }
+20: }

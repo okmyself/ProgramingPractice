@@ -1,0 +1,115 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CalenderTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "CalenderTest",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DriverTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "DriverTest",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Mathtest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Mathtest",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MonthTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "MonthTest",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringBufferExample",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "StringBufferExample",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SystemTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "SystemTest",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-shiyan6_2_3",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "shiyan6_2_3",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-shiyan6_2_5",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "shiyan6_2_5",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-shiyan6_3_1",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "shiyan6_3_1",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-shiyan7_3_2",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "shiyan7_3_2",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}
