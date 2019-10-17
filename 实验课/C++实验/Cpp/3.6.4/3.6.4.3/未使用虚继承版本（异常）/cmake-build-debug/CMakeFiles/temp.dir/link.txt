@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/temp.dir/main.cpp.o CMakeFiles/temp.dir/Date.cpp.o CMakeFiles/temp.dir/Employee.cpp.o CMakeFiles/temp.dir/manager.cpp.o CMakeFiles/temp.dir/salesman.cpp.o CMakeFiles/temp.dir/salesmanager.cpp.o CMakeFiles/temp.dir/technician.cpp.o  -o temp 

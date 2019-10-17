@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/Date.h
+ostream
+-
+
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/Employee.h
+string
+-
+Date.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/Date.h
+
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/main.cpp
+iostream
+-
+Employee.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/Employee.h
+manager.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/manager.h
+salesmanager.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/salesmanager.h
+salesman.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/salesman.h
+technician.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/technician.h
+
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/manager.h
+Employee.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/Employee.h
+
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/salesman.h
+string
+-
+Employee.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/Employee.h
+
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/salesmanager.h
+salesman.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/salesman.h
+manager.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/manager.h
+
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/technician.h
+Employee.h
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/Employee.h
+

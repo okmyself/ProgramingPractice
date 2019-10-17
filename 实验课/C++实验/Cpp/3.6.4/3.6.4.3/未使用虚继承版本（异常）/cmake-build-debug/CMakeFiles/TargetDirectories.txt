@@ -1,0 +1,3 @@
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/cmake-build-debug/CMakeFiles/temp.dir
+/media/myself/Software/Homework & Report/C++ Experiment/Cpp/temp/temp/cmake-build-debug/CMakeFiles/edit_cache.dir
