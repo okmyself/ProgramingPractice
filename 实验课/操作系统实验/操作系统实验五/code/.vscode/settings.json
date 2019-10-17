@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.pascal": "pascal",
+        "math.h": "c",
+        "wait.h": "c",
+        "cmath": "c"
+    }
+}
