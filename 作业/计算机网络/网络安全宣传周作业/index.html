@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<!-- 移动设备自适应 -->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>2019网络安全宣传周</title>
+	
+	<link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
+	
+
+</head>
+<body>
+	
+	<div class="main" >
+	
+		<!-- 最上一层：为黑板报标题栏 -->
+		<div class="top" >
+			<a href="http://www.cac.gov.cn/2019-08/28/c_1124933484.htm" title="2019网络安全宣传周">
+				<img class="logo" src="CSS/images/logo.png" >
+			</a>
+			<span class="title" >
+				2019网络安全宣传周
+			</span>
+			
+		</div>
+		
+		<!-- 第二层：此处开始为主题内容 -->
+		<div class="middle" >
+			<!-- 下面使用两个div容器形成主体内容分左右两部分布局 -->
+			<div class="left-col" >
+				<h2 >介绍:</h2>
+                <p class="para1" >“国家网络安全宣传周”即“中国国家网络安全宣传周”，是为了“共建网络安全，共享网络文明”而开展的主题活动，围绕金融、电信、电子政务、电子商务等重点领域和行业网络安全问题，针对社会公众关注的热点问题，举办网络安全体验展等系列主题宣传活动，营造网络安全人人有责、人人参与的良好氛围。</p>
+                <p class="para2" >以“网络安全为人民，网络安全靠人民”为主题的2019年国家网络安全宣传周9月22日落幕。这场天津开幕全国开展的网络“盛宴”却余味悠长，关于“网络安全”的话题既惊动“庙堂”，又呼应“民间”。</p>
+				<img src="CSS/images/liaojie.png" style="width:60px; height: 150px;">
+				
+				<!-- 此处调用iframe引用bilibili网站播放器播放一个视频 -->
+				<iframe src="http://player.bilibili.com/player.html?aid=68398942&cid=118547163&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+				
+			</div>
+			<!-- 右边列 -->
+			<div class="right-col" >
+				<img class="pics" src="CSS/images/huodong.png" >
+				<div style="width: 340px;height:180px;float:left;">
+					<img class="img-h" src="CSS/images/pic1.png" >
+					<img class="img-h" src="CSS/images/pic2.jpg" >
+				</div>
+				<div style="width: 100px;height:200px; float:right;">
+					<img class="img-v" src="CSS/images/pic3.jpg" >
+				</div>
+				
+				<div class="yqlj-links" >
+					<!-- 设置标题与底线 -->
+					<div class="yqlj-head" >
+						<span class="yqlj-title" >友情链接</span>
+						<span style="float:right;">
+							<a href="https://www.baidu.com/s?ie=UTF-8&wd=2019%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%AE%A3%E4%BC%A0%E5%91%A8" >更多>></a>
+						</span>
+					</div>
+					
+					<ul class="links">
+						<li><a href="https://www.dzwww.com/2019/wlaq/" >· 国家网络安全宣传周山东省活动</a></li>
+						<li><a href="http://www.qh.gov.cn/zwgk/system/2019/09/24/010341830.shtml" >· 全民参与共同守护网络安全 ——2019年青海省网络安全宣传周活动综述</a></li>
+						<li><a href="http://www.cnhubei.com/z/12338077/" >· 2019湖北省网络安全宣传周</a></li>
+						<li><a href="http://ah.anhuinews.com/cms_udf/2019/anhuiCybersecurity/index.shtml" >· 安徽网络安全宣传周</a></li>						
+                        <li><a href="http://news.hsw.cn/zqkx/zqzt/2019sx_wlaq/index.shtml?from=singlemessage" >· 2019年陕西省第六届国家网络安全宣传周</a></li>
+                        <li><a href="http://www.gov.cn/xinwen/2019-09/23/content_5432228.htm" >· 郑州将承办2020年国家网络安全宣传周开幕式等重要活动</a></li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- 第三层：主要放置了'背景音乐'模块，因为audio默认控制组件放上去实在太违和（ugly）就隐藏了，自己做了个简单的播放/暂停控制菜单 -->
+		<div class="foot" >
+			<audio src="music/SunAndMoon.mp3" id="music" loop="loop" preload="auto" type="audio/mpeg"> 'audio' tag is not avalible on your browser!</audio>
+			<ul id="toolbar" >
+				<li class="line" >
+					<span onclick="getElementById('music').play(); getElementById('status').innerHTML='playing';" > Play </span>
+				</li>
+				<li class="line">
+					<span onclick="getElementById('music').pause(); getElementById('status').innerHTML='paused';" > Pause</span>
+				</li>
+				<li class="line"> Bgm: 
+					<span id="status" > -- </span>
+				</li>
+			</ul>
+		</div>
+		
+		<!-- 最下一层：整个页脚部分，主要是背景需要，还有一本正经地（装模做样）写了个版权出处 -->
+		<div class="btm" > Copyright © 2019 
+			<a href="http://www.lzu.edu.cn" > 兰州大学 </a> | Page From :
+			<a href="#" target="_parent" > 2017级计算机基地班：杨添宝</a>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
